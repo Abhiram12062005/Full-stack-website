@@ -1,0 +1,199 @@
+.user-auth{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vw;
+    margin-top: 3vw;
+    position: relative;
+}
+
+.user-auth-container .arrow{
+    width: 100%;
+    float: left;
+    margin: 0 40px;
+    background-color: transparent;
+}
+
+.back-arrow{
+    background-color: transparent;
+}
+
+Link{
+    float: left;
+}
+
+.arrow{
+    width: 90%;
+    margin-bottom: 2vw;
+}
+.arrow img:hover{
+    background-color: #ffffff60;
+}
+
+.arrow img{
+    padding: 15px;
+    border-radius: 50%;
+}
+
+.visibility{
+    background-color: transparent;
+    margin-left: 10px;
+}
+
+.user-auth-container{
+    width: 50%;
+    background-color: #ffffff60;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    align-items: center;
+    padding: 30px;
+}
+
+.banner-img{
+    width: 25%;
+}
+
+.toaster{
+    height: 1vw;
+    background-color: transparent;
+    margin: 0 40%;
+    position: relative;
+}
+
+
+.input-fields{
+    width: 60%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+    margin-top: 5vw;
+}
+.Signup-text{
+    color: white;
+    background-color: transparent;
+    margin-top: 5vw;
+}
+
+.Signup-btn{
+    color: #001AFF;
+    background-color: transparent;
+}
+
+.signin-btn{
+    background-color: black;
+    color: white;
+    padding: 1vw 5.5vw;
+    outline: none;
+    border: none !important; 
+    border-radius: 45px;
+}
+
+.or{
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    color: white;
+    gap: 2vw;
+}
+.or hr{
+    rotate: 90deg;
+}
+.or p{
+    background-color: transparent;
+}
+
+.google{
+    width: 20vw;
+    padding: 0.6vw 1vw;
+    display: flex;
+    flex-direction: row;
+    color: rgb(0, 0, 0);
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+    border-radius: 35px;
+    border: none;
+}
+.toaster{
+    border-radius: 30px;
+    background-color: none;
+}
+.signin-btn{
+    margin-top: 10%;
+}
+
+@media only screen and (max-width:1090px){
+    .arrow img{
+        padding: 0 10px;
+    }
+    .google{
+        width: 30vw;
+        font-size: 9px;
+    }
+    .or{
+        gap: 3vw;
+    }
+}
+
+@media only screen and (max-width: 750px){
+    .or{
+        gap: 4vw;
+    }
+    .google{
+        padding: 10px 1%;
+
+    }
+    .google img{
+        width: 15px;
+    }
+    .signin-btn{
+        margin-top: 20%;
+    }
+    .banner-img{
+        width: 40%;
+    }
+    .input-fields{
+        width: 80%;
+    }
+}
+@media only screen and (max-width: 570px){
+    .or{
+        gap: 6vw;
+    }
+    .Signup-text{
+        font-size: 9px;
+    }
+    .google{
+        font-size: 7px;
+        width: 35vw;
+        padding: 10px 1%;
+    }
+    .google img{
+        width: 15px;
+    }
+    .signin-btn{
+        margin-top: 25%;
+        font-size: 10px;
+        padding: 5px 25px;
+    }
+    .banner-img{
+        width: 40%;
+    }
+    .user-auth-container{
+        width: 70%;
+    }
+    .user-auth {
+        margin-top: 6vw;
+    }
+    .arrow img{
+        padding: 10px;
+    }.input-fields{
+        width: 100%;
+    }
+}

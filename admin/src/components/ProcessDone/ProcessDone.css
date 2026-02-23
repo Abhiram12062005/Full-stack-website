@@ -1,0 +1,45 @@
+
+.users{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.user-auths{
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2vw;
+}
+
+.back *{
+    color: black;
+    background-color: #ffc107;
+    padding: 1vw 3vw;
+}
+
+.back *:hover{
+    background-color: #d09d05;
+}
+
+.user-auths img{
+    width: 8vw;
+    
+}
+.user-auths img{
+    transition: 1s;
+    animation: rotate 2s;
+}
+
+@keyframes rotate {
+    0%{
+      transform: rotate(0deg);
+    }
+    100%{
+      transform: rotate(360deg);
+    }
+}

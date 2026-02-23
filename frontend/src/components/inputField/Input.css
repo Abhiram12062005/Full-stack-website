@@ -1,0 +1,141 @@
+.input{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: none;
+    border-radius: 50px;
+    width: 27vw;
+}
+
+.input input{
+    width: 25vw;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    height: 38px;
+    padding: 0 10px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: black;
+}
+
+
+
+.input .img{
+    background-color: black;
+}
+.img{
+    padding: 10px 10px 10px 20px;
+    display: flex;
+    justify-content: center;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.input input::placeholder{
+    color: black;
+}
+
+.visibility{
+    width: 1.5vw;
+    margin-right: 1vw;
+    display: flex;
+    align-items: center;
+}
+
+@media only screen and (max-width: 1000px){
+    .input{
+        width: 35vw;
+    }
+    .input input{
+        width: 31vw;
+    }
+}
+@media only screen and (max-width: 770px){
+    .input{
+        width: 40vw;
+    }
+    .img{
+        padding: 15px 10px 15px 20px;
+        width: 10px;
+        height: 10px;
+    } .input input{
+        font-size: 11px;
+    }
+    .visibility{
+        width: 15px;
+    }
+    .input input{
+        width: 38vw;
+    }
+}
+@media only screen and (max-width: 620px){
+    .input{
+        width: 45vw;
+    }
+    .img{
+        padding: 15px 10px 15px 20px;
+        width: 10px;
+        height: 10px;
+    }
+    .visibility{
+        width: 15px;
+    }
+}
+@media only screen and (max-width: 570px){
+    .input{
+        width: 55vw;
+    }
+    .input input{
+        font-size: 10px;
+        height: 25px;
+    }
+    .img{
+        padding: 10px 10px 10px 20px;
+        width: 10px;
+        height: 10px;
+    }
+    .visibility{
+        width: 15px;
+    }
+}
+@media only screen and (max-width: 450px){
+    .input{
+        width: 60vw;
+    }
+    .img{
+        padding: 10px 10px 10px 20px;
+        width: 10px;
+        height: 10px;
+    }
+    .visibility{
+        width: 15px;
+    }
+}
+@media only screen and (max-width: 400px){
+    .input{
+        width: 67vw;
+    }
+    .img{
+        padding: 10px 10px 10px 20px;
+        width: 10px;
+        height: 10px;
+    }
+    .visibility{
+        width: 15px;
+    }
+}
+@media only screen and (max-width: 320px){
+    .input{
+        width: 67vw;
+    }
+    .img{
+        padding: 10px 10px 10px 20px;
+        width: 10px;
+        height: 10px;
+    }
+    .visibility{
+        width: 15px;
+    }
+}

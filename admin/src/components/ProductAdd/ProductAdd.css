@@ -1,0 +1,21 @@
+.product{
+    position: absolute;
+    margin-left: 22vw;
+    top: 100px;
+}
+
+.input select{
+    width: 100%;
+    padding: 0.7vw 2vw;
+    outline: 0;
+    border: 1px solid rgb(191, 191, 191);
+}
+#createProductFormImage {
+    width: 100%;
+    overflow: auto;
+  }
+  
+  #createProductFormImage > img {
+    width: 3vmax;
+    margin: 0 0.5vmax;
+  }

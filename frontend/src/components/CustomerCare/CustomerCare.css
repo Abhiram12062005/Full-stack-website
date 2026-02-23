@@ -1,0 +1,44 @@
+.Customer-care {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+.Customer-care form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    padding: 5vw 0;
+    background-color: #212121;
+}
+.inputs {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    gap: 10px;
+}
+.inputs input{
+    padding: 1vw 3vw;
+}
+  
+.dropdown-container {
+    width: 100%;
+}
+
+.dropdown-container select{
+    width: 100%;
+    padding: 1vw 3vw;
+}
+  
+.submit-btn{
+    width: 100%;
+    padding: 1vw;
+    border: 0;
+    outline: 0;
+    background-color: #ffc107;
+    margin-top: 20px;
+}
+.submit-btn:hover{
+    background-color: #d09d05;
+}

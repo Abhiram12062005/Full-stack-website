@@ -1,0 +1,40 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 4%;
+    background-color: #545454;
+} 
+.profile{
+    border-radius: 50%;
+}
+
+.navbar .logo{
+    width: max(7%,70px);
+}
+
+.nav-right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2vw;
+}
+button{
+    outline: none;
+    border: none;
+    background-color: white;
+    padding: 0.7vw 1.5vw;
+    border-radius: 50px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: transparent;
+    border: 0.2vw solid white;
+    padding: 0.5vw 1.35vw;
+    color: white;
+}
+.info{
+    font-size: 0.8vw;
+    margin-left: -20px;
+    color: rgb(227, 227, 227);
+}

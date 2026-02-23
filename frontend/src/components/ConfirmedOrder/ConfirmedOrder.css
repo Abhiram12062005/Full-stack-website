@@ -1,0 +1,81 @@
+.tick {
+    width: 250px;
+    display: block;
+    margin: 40px auto 0;
+  }
+  
+  .path {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 0;
+  }
+  
+  .path.circle {
+    animation: dash 0.9s ease-in-out;
+  }
+  
+  .path.checks {
+    stroke-dashoffset: -100;
+    animation: dash-check 0.9s 0.35s ease-in-out forwards;
+  }
+  
+  .tick p {
+    text-align: center;
+    margin: 20px 0 60px;
+    font-size: 1.25em;
+  }
+  
+  .success {
+    color: #73af55;
+  }
+  
+  @keyframes dash {
+    0% {
+      stroke-dashoffset: 1000;
+    }
+    100% {
+      stroke-dashoffset: 0;
+    }
+  }
+  
+  @keyframes dash-check {
+    0% {
+      stroke-dashoffset: -100;
+    }
+    100% {
+      stroke-dashoffset: 900;
+    }
+  }
+  
+  /* Ensuring animation plays on page load */
+  .confirmed-order.animate .path.circle {
+    animation: dash 0.9s ease-in-out;
+  }
+  
+  .confirmed-order.animate .path.checks {
+    animation: dash-check 0.9s 0.35s ease-in-out forwards;
+  }
+
+.confirmed-order{
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    padding: 6vw 0;
+    align-items: center;
+    justify-content: center;
+}
+.confirmed-order p{
+    font-size: 2.5vw;
+}
+.contiue-shopping{
+    outline: 0;
+    border: 0;
+    background-color: #73af55;
+    font-size: 1.5vw;
+    padding: 1.5vw 7vw;
+    border-radius: 70px;
+    transition: 1s
+}
+
+.contiue-shopping:hover{
+    background-color: #3aae00;
+}

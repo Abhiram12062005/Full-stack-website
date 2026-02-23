@@ -1,0 +1,36 @@
+.category-list{
+    position: absolute;
+    margin-left: 23vw;
+    top: 100px; 
+    width: 70vw;
+}
+
+.category-list-title{
+    display: grid;
+    grid-template-columns: 10fr 4fr 5fr 3fr;
+    align-items: center;
+    gap: 80px;
+    padding: 20px 5%;
+    color: #454545; 
+    font-size: 1.2vw;
+    font-weight: 400;
+}
+
+.category-list-title p{
+    font-family:  "Roboto", sans-serif;
+}
+
+.category-format{
+    display: grid;
+    grid-template-columns: 10fr 4fr 5fr 3fr;
+    align-items: center;
+    gap: 80px;
+    padding: 20px 2%;
+    color: #454545; 
+    font-size: 1.2vw;
+    font-weight: 400;
+}
+
+.cat{
+    font-size: 1vw;
+}

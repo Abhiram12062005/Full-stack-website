@@ -1,0 +1,71 @@
+/* ProductList.css */
+
+.product-list-container {
+    width: 78vw; /* 100vw - 20vw for the sidebar */
+    margin: 20px auto 20px 20vw;
+    top: 100px;
+    position: absolute;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+  
+  .product-name{
+    color: black;
+  }
+
+  .product-list {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+  }
+  
+  .product-list th, .product-list td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+  }
+  
+  .product-list th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .product-list img {
+    border-radius: 5px;
+  }
+  
+  .product-list .product-name {
+    display: flex;
+    align-items: center;
+  }
+  
+  .product-list .product-name img {
+    margin-right: 10px;background-color: #e2e2e2;
+    border-radius: 50%;
+  }
+  
+  .delete-icon {
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .delete-icon:hover {
+    transform: scale(1.1);
+  }
+
+.dropdowns img{
+  width: 2vw;
+}
+.dropdown-menu{
+  position: absolute;
+  width: 15%;
+  right: 100px;
+  background-color: #fff;
+}
+.dropdown-menu *{
+  padding: 1vw 2vw;
+  cursor: pointer;
+}
+.dropdown-menu *:hover{
+  background-color: #e2e2e2;
+}

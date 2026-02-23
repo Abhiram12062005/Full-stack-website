@@ -1,0 +1,12 @@
+POST   http://localhost:3000/product
+Content-Type: application/json
+
+{
+    "name":"Aluminum Euro Series Sliding Doors for Residential",
+    "description":"Standard casement uPVC window. ",
+    "categoryinProduct":"Sliding series",
+    "offerprice":1000,
+    "price":999,
+    "countInStock":100,
+    "image": "C:/Users/abhir/OneDrive/Documents/web devlopment/projects/internship project/server/uploads/images-1720251954933.jpg"
+}

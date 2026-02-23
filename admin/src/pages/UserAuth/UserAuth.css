@@ -1,0 +1,140 @@
+.user{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    margin-top: 5vw;
+}
+.user-auth{
+    padding: 30px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);   
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
+
+.user-auth-text h2{
+    font-size: 2vw;
+    font-weight: 500;
+    font-family:  "Roboto", sans-serif;
+}
+
+.user-auth-text p{
+    font-size: 0.7vw;
+    font-family:  "Roboto", sans-serif;
+
+}
+
+.user-auth-input{
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+
+.user-auth-input input{
+    width: 23vw;
+    padding: 0 15px;
+    height: 3vw;
+    border: 1px solid #e2e2e2;
+}
+
+.user-auth-input p{
+    font-size: 0.9vw;
+    font-family:  "Roboto", sans-serif;
+}
+
+.user-auth-input button{
+    border: none;
+    outline: none;
+    background-color: #ffc107;
+    padding: 10px;
+    font-size: 1vw;
+}
+
+.user-auth-input button:hover{
+    background-color: #d09d05;
+}
+
+.or{
+    display: flex;
+    flex-direction: row;
+    gap: 1.2vw;
+    justify-content: center;
+    color: #848484;
+}
+
+.or hr{
+    rotate: 90deg;
+}
+
+.user-auth-google button{
+    border: 0;
+    outline: 0;
+    background-color: #e6e8eb;
+    width: 100%;
+    padding: 10px;
+    font-size: 1vw;
+}
+
+.user-auth-google button:hover{
+    background-color: #c4c4c4;
+}
+
+.user-auth-signup{
+    font-size: 0.8vw;
+    font-family:  "Roboto", sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-auth-signup .btn{
+    color: #0d6efd;
+}
+
+.users{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.user-auths{
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2vw;
+}
+
+.back *{
+    color: black;
+    background-color: #ffc107;
+    padding: 1vw 3vw;
+}
+
+.back *:hover{
+    background-color: #d09d05;
+}
+
+.user-auths img{
+    width: 8vw;
+    
+}
+.user-auths img{
+    transition: 1s;
+    animation: rotate 2s;
+}
+
+@keyframes rotate {
+    0%{
+      transform: rotate(0deg);
+    }
+    100%{
+      transform: rotate(360deg);
+    }
+}

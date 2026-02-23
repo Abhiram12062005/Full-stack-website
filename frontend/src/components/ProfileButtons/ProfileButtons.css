@@ -1,0 +1,45 @@
+.profile-buttons{
+    width: max-content;
+    display: flex;
+    gap: 2vw;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+}
+.left-hr{
+    rotate: 180deg;
+    height: 40vw;
+    margin-top:2vw;
+}
+
+.profile-button-links{
+    display: flex;
+    width: 100%;
+    margin: 4vw 0;
+    margin-right: 2vw;
+    flex-direction: column;
+}
+
+.profile-button-links .btn{
+    background-color: black;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile-button-links hr{
+    width: 100%;
+}
+
+.profile-button-links .btn:hover{
+    background-color: #ffffff60;
+}
+
+@media only screen and (max-width:750px){
+    .left-hr{
+        display: none;
+    }
+    .profile-button-links hr{
+        width: 101.8%;
+    }
+}

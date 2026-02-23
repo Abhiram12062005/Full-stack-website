@@ -1,0 +1,46 @@
+.sidebar-options{
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    margin-top: 10px;
+}
+
+.sidebar-option{
+    display: flex;
+    justify-content: space-between;    
+    align-items: center;
+    border-right: 0;
+    padding: 8px 30px;
+    border-radius: 3px 0px 0px 3px;
+    cursor: pointer;
+}
+.option-i{
+    display: flex; flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.sidebar-option:hover{
+    background-color: #263c4d;
+}
+
+.icon{
+    width: 20px;
+}
+
+.left-arrow{
+    width: 12px;
+}
+.dropdown *{
+    text-decoration: none;
+    color: white;
+    padding: 8px 30px;
+    padding-left: 31%;
+}
+.dropdown *:hover{
+    background-color: #263c4d;
+}
+.dropdown{
+    display: flex;
+    flex-direction: column;
+}

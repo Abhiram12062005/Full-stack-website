@@ -1,0 +1,55 @@
+.main-banner{
+    color: white;
+    width: 100%;
+    position: relative;
+    height: 50vw;
+    background-size: contain;
+    position: relative;
+}
+
+.main-banner-text{
+    background-color: transparent; 
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.5vw;
+    max-width: 50%;
+    right: 5vw;
+    align-items: center;
+    justify-content: center;
+    top: 5vw;
+    animation: fadeIn 2s;
+}
+
+.main-banner-text h1{
+    font-size: 5vw;
+    text-align: center;
+    background-color: transparent;
+    font-weight: 100;
+}
+
+.main-banner-text p{
+    color: #B6B6B6;
+    background-color: transparent;
+    font-size: 1vw;
+}
+
+.banner{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+@media only screen and (max-width:750px){
+    .main-banner-text{
+        top: 4vw;
+    }
+    .banner{
+        height: 50vw;
+    }
+    .main-banner-text p{
+        margin-top: -3vw;
+        margin-bottom: 3vw;
+    }
+}

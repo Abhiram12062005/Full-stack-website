@@ -1,0 +1,105 @@
+.about-us {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding: 20px;
+  gap: 20px;
+}
+
+.back {
+  width: 24px;
+  height: 24px;
+  /* Removed any transform/scale properties that might have been causing the hover effect */
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.top h1 {
+  font-size: 28px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 15px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.about-text {
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+/* Tablet Styles (768px and up) */
+@media screen and (min-width: 768px) {
+  .about-us {
+    padding: 30px;
+  }
+
+  .back {
+    width: 32px;
+    height: 32px;
+  }
+
+  .top h1 {
+    font-size: 36px;
+  }
+
+  .about {
+    padding: 20px;
+    gap: 30px;
+  }
+
+  .about-text {
+    font-size: 18px;
+  }
+}
+
+/* Desktop Styles (1024px and up) */
+@media screen and (min-width: 1024px) {
+  .about-us {
+    padding: 3vw;
+  }
+
+  .back {
+    width: 40px;
+    height: 40px;
+  }
+
+  .top h1 {
+    font-size: 3vw;
+  }
+
+  .about {
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+    padding: 1vw;
+  }
+
+  .about-image {
+    width: 50%;
+  }
+
+  .about-text {
+    width: 50%;
+    font-size: 1.1vw;
+  }
+}

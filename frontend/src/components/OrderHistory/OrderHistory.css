@@ -1,0 +1,92 @@
+.order-history-container {
+    padding: 0 2vw;
+}
+
+.order-item {
+    border: 1px solid #ccc;
+    padding: 2vw 4vw;
+    margin-bottom: 20px;
+    color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.order-item h3 {
+    margin-bottom: 10px;
+}
+
+.ordered-products {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.product-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);   
+    transition: transform 0.3s ease-in-out;
+}
+
+.co-btn{
+    width: 100%;
+    padding: 1.5vw;
+    margin-top: 2vw;
+    background-color: #f05a00;
+    color: white;
+    outline: 0;
+    border: 0;
+    font-size: 1.2vw;
+}
+.co-btn:hover{
+    background-color: #a84203;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.product-card img {
+    width: 100%;
+    height: 15vw;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.product-details{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0;
+}
+
+.product-details h4 {
+    margin-top: 0;
+    margin-bottom: 8px;
+    color: black;
+}
+
+.product-details p {
+    margin: 0;
+    color: #666;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+    .ordered-products {
+        grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+    }
+}
+    
+.bank-status{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 3vw 4vw;
+    background-color: #212121;
+    margin-top: 20px;
+}

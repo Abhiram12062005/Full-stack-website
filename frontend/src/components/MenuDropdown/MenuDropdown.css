@@ -1,0 +1,24 @@
+.menu-dd{
+    position: absolute;
+    right: 0;
+    z-index: 50;
+    width: 30vw;
+}
+
+.menu-drop-down{
+    position: absolute;
+    background-color: #00000080;
+    right: 0;
+    border: 1px black solid;
+}
+
+.menu-drop-down-btn *{
+    color: white;
+    display: flex;
+    padding: 10px 60px 10px 10px;
+    align-items: flex-start;
+}
+
+.menu-drop-down-btn *:hover{
+    background-color: #ffffff60;
+}

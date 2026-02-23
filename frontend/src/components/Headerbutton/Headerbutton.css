@@ -1,0 +1,20 @@
+.exp-btn{
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 1vw 5vw;
+}       
+
+button:hover{
+    background-color: #b6b6b6;
+}
+
+.header-button{
+    background-color: transparent;
+}
+@media only screen and (max-width:650px){
+    .exp-btn{
+        border: 1px solid white;
+        font-size: 2vw;
+    }
+}

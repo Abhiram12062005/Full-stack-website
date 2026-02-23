@@ -1,0 +1,89 @@
+.add-category{
+    position: absolute;
+    margin-left: 23vw;
+    top: 100px; 
+    padding: 4vw;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    gap: 1vw;
+    color: rgb(76, 76, 76);
+}
+
+.text h2{
+    font-size: 2.5vw;
+    font-family:  "Roboto", sans-serif;
+    font-weight: 300;
+}
+
+.add-category-card{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 1.5px 5px 0 rgba(0, 0, 0, 0.19);   
+    background-color: white;
+}
+.bi{
+    font-family:  "Roboto", sans-serif;
+    font-size: 1vw;
+    font-weight: 500;
+    margin-bottom: 1.5vw;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
+
+.input{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.input label{
+    font-family:  "Roboto", sans-serif;
+    font-size: 1vw;
+    font-weight: 300;
+    margin-bottom: 0.5vw;
+}
+
+.input input{
+    width: 100%;
+    padding: 0.7vw 2vw;
+    outline: 0;
+    border: 1px solid rgb(191, 191, 191);
+}
+
+.leftside-input{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid rgb(191, 191, 191);
+}
+
+.leftside-input input{
+    border: 0;
+}
+
+.leftside-input p{
+    background-color: rgb(199, 199, 199);
+    padding: 0.7vw 2vw;
+    color: black;
+}
+
+form button{
+    width: 100%;
+    background-color: #4CAF50;
+    border-radius: 0;
+    margin-top: 2vw;
+    height: 3.5vw;
+}
+
+form button:hover{
+    background-color: #3d8c40;
+    height: 3.5vw;
+    color: black;
+}

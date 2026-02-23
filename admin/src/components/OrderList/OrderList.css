@@ -1,0 +1,109 @@
+/* OrderList.css */
+
+.container {
+  position: absolute;
+  top: 100px;
+  margin-left: 23vw;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 75%;
+  justify-content: center;
+}
+
+.order-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 100%;
+  margin: 10px;
+  background-color: #fff;
+}
+
+.order-card-head{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.order-card h2 {
+  margin: 0 0 10px;
+}
+
+.order-card table {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.order-card th, .order-card td {
+  padding: 18px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.order-card th {
+  background-color: #f4f4f4;
+  width: 20%;
+}
+
+.products-card{
+  display: flex;
+  width: 100%;
+  overflow-x: scroll;
+  gap: 1vw;
+  scrollbar-width: none;
+  margin-bottom: 30px;
+}
+
+.product-item {
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 8px;
+  max-width: 20vw;
+  align-items: center;
+}
+.product-item-details{
+  padding: 3vw 0;
+}
+.bank{
+  display: flex;
+  align-items: center;
+  margin-top: 1vw;
+  justify-content: space-between;
+  padding: 2vw;
+  background-color: #ddd;
+}
+.product-item img {
+  width: 100%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  height: auto;
+}
+
+.address-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: #f9f9f9;
+}
+
+.address-card h4 {
+  margin: 0;
+}
+
+.address-card p {
+  margin: 5px 0;
+}
+.co-btn{
+  background-color: black;
+  color: #fff;
+}
+.co-btn:hover{
+  border: 0;
+  background-color: #00000080;
+}

@@ -1,0 +1,146 @@
+.search-container {
+    position: relative;
+    width: 100%;
+    max-width: 95%;
+    margin: 2vw auto;
+}
+.search-input {
+    width: 100%;
+    padding: 1vw 1.5vw;
+    outline: 0;
+    font-size: 16px;
+    border-radius: 50px;
+}
+.search{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3vw;
+}
+.search img{
+    width: 3vw;
+}
+.suggestions-list {
+    position: absolute;
+    top: 100%;
+    left: 3vw;
+    right: 0;
+    background-color: #000;
+    border-radius: 0 0 5px 5px;
+    max-height: 100vw;
+    overflow-y: hidden;
+    z-index: 1000;
+} 
+.suggestion-item {
+    padding: 10px;
+    cursor: pointer;
+    color: #fff; /* White text */
+}
+.sugesstion-card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    padding: 1.5vw 0;
+    border-bottom: 2px solid white;
+}
+.sugesstion-card:hover{
+    background-color: #333; /* Darker background on hover */
+} 
+.sugesstion-card img{
+    width: 2vw;
+}
+li{
+    list-style-type: none;
+}
+
+
+/* Add this to animate the appearance of the suggestions */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.suggestion-item {
+    animation: fadeIn 0.5s ease-in-out; /* Apply fade-in animation */
+}
+
+/* Hover animation */
+.sugesstion-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 90%;
+    padding: 1.5vw 0;
+    border-bottom: 2px solid white;
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out; /* Add transition for hover effect */
+}
+
+.sugesstion-card:hover {
+    background-color: #333; /* Darker background on hover */
+    transform: scale(1.05); /* Slightly scale up on hover */
+}
+
+
+/* Add this to animate the appearance of the suggestions */
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.suggestion-item {
+    animation: slideIn 0.5s ease-in-out; /* Apply slide-in animation */
+}
+
+/* Hover animation */
+.sugesstion-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 90%;
+    padding: 1.5vw 0;
+    border-bottom: 2px solid white;
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out; /* Add transition for hover effect */
+}
+
+.sugesstion-card:hover {
+    background-color: #333; /* Darker background on hover */
+    transform: scale(1.05); /* Slightly scale up on hover */
+}
+
+@media only screen and (max-width:550px){
+    .search{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .search img{
+        width: 5vw;
+    }
+    .search-input{
+        padding: 1.5vw 4vw;
+    }
+    .sugesstion-card{
+        padding: 1vw 0;
+    }
+    .suggestions-list{
+        left: 0 ;
+    }
+    .sugesstion-card li{
+        font-size: 3vw;
+    }
+    .sugesstion-card img{
+        width: 3.5vw;
+    }
+}
